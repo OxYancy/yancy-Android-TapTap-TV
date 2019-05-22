@@ -1,0 +1,36 @@
+{
+  "data" : [
+    {
+      "title" : "CCTV-1",
+      "quality" : "高清",
+      "url" : "http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221225852/index.m3u8",
+      "img": "http://1118cctv.com/upload/images/cctvlogo/cctv1.jpg"
+    },
+    {
+      "title" : "CCTV-6",
+      "quality" : "标清",
+      "url" : "http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221225548/index.m3u8",
+      "img": "http://1118cctv.com/upload/images/cctvlogo/cctv6.jpg"
+    },
+
+    {
+      "title" : "CCTV-9",
+      "quality" : "标清",
+      "url": "http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221225868/index.m3u8",
+      "img": "http://1118cctv.com/upload/images/cctvlogo/cctv9.jpg"
+
+    },
+    {
+      "title" : "CCTV-12",
+      "quality" : "流畅",
+      "url" : "http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221226019/index.m3u8",
+      "img": "http://1118cctv.com/upload/images/cctvlogo/cctv12.jpg"
+    },
+    {
+      "title" : "测试电台",
+      "quality" : "流畅",
+      "url" : "http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8"
+    }
+  ],
+  "length": 5
+}
