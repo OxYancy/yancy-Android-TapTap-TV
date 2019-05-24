@@ -22,11 +22,10 @@ implementation 'com.google.android.material:material:1.1.0-alpha06'
 ```
 com.google.android.material.card.MaterialCardView
 ```
+- 让视频横屏显示
 
 未完成 :
 
-
-- 当屏幕横屏时，让视频全屏显示
 
 - “流量警告”功能，当用户使用数据流量看视频时，警告用户可能产生流量费用
 

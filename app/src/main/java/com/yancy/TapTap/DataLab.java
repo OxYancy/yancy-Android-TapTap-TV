@@ -46,9 +46,11 @@ public class DataLab {
                 Channel c = new Channel();
                 JSONObject item = data.getJSONObject(i);
                 c.setTitle(item.getString("title"));
-                c.setQuality(item.getString("quality"));
+                c.setDesc(item.getString("desc"));
                 c.setUrl(item.getString("url"));
-                c.setImg(item.getString("img"));
+                c.setImg(item.getString("logoimg"));
+                c.setIntr(item.getString("intr"));
+
                 result.add(c);
             }
         } catch (JSONException e) {

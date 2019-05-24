@@ -2,33 +2,42 @@
   "data" : [
     {
       "title" : "CCTV-1",
-      "quality" : "高清",
-      "url" : "http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221225852/index.m3u8",
-      "img": "http://1118cctv.com/upload/images/cctvlogo/cctv1.jpg"
+
+      "url" : "http://ivi.bupt.edu.cn/hls/cctv1.m3u8",
+      "logoimg": "http://1118cctv.com/upload/images/cctvlogo/cctv1.jpg",
+      "desc": "中央电视台新闻频道",
+      "intr": "《新闻联播》是中国中央电视台每日晚间播出的一档新闻节目，被称为 “中国政坛的风向标”, 节目宗旨为 “宣传党和政府的声音，传播天下大事”。"
+
     },
     {
       "title" : "CCTV-6",
-      "quality" : "标清",
-      "url" : "http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221225548/index.m3u8",
-      "img": "http://1118cctv.com/upload/images/cctvlogo/cctv6.jpg"
+
+      "url" : "http://ivi.bupt.edu.cn/hls/cctv6.m3u8",
+      "logoimg": "http://1118cctv.com/upload/images/cctvlogo/cctv6.jpg",
+      "desc": "中央电视台电影频道",
+      "intr": "《新闻联播》是中国中央电视台每日晚间播出的一档新闻节目，被称为 “中国政坛的风向标”, 节目宗旨为 “宣传党和政府的声音，传播天下大事”。"
     },
 
     {
       "title" : "CCTV-9",
-      "quality" : "标清",
-      "url": "http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221225868/index.m3u8",
-      "img": "http://1118cctv.com/upload/images/cctvlogo/cctv9.jpg"
+
+      "url": "http://ivi.bupt.edu.cn/hls/cctv9.m3u8",
+      "logoimg": "http://1118cctv.com/upload/images/cctvlogo/cctv9.jpg",
+      "desc": "中央电视台记录频道",
+      "intr": "《新闻联播》是中国中央电视台每日晚间播出的一档新闻节目，被称为 “中国政坛的风向标”, 节目宗旨为 “宣传党和政府的声音，传播天下大事”。"
 
     },
     {
       "title" : "CCTV-12",
-      "quality" : "流畅",
-      "url" : "http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221226019/index.m3u8",
-      "img": "http://1118cctv.com/upload/images/cctvlogo/cctv12.jpg"
+
+      "url" : "http://ivi.bupt.edu.cn/hls/cctv12.m3u8",
+      "logoimg": "http://1118cctv.com/upload/images/cctvlogo/cctv12.jpg",
+      "desc": "中央电视台法制频道",
+      "intr": "《新闻联播》是中国中央电视台每日晚间播出的一档新闻节目，被称为 “中国政坛的风向标”, 节目宗旨为 “宣传党和政府的声音，传播天下大事”。"
     },
     {
       "title" : "测试电台",
-      "quality" : "流畅",
+
       "url" : "http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8"
     }
   ],

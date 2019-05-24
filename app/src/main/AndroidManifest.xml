@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".BofangActivity" />
-        <activity android:name=".LiveActivity" />
+        <activity android:name=".LiveActivity" android:screenOrientation="landscape" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

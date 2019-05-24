@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.WindowManager;
 
 import com.google.android.exoplayer2.ExoPlaybackException;
 import com.google.android.exoplayer2.ExoPlayerFactory;
@@ -26,13 +27,17 @@ public class LiveActivity extends AppCompatActivity {
     private Channel channel;
     //TODO 动态传入此URL
     private final static String VIDEO_URL = "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226942/index.m3u8";
-//    private final static String VIDEO_URL = "http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221225852/index.m3u8";
+    //    private final static String VIDEO_URL = "http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221225852/index.m3u8";
     private String TAG = "FFPLAYER";
     private String userAgent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //        隐藏状态栏
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+//        隐藏标题栏
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_live);
 
         playerView = findViewById(R.id.playerView);

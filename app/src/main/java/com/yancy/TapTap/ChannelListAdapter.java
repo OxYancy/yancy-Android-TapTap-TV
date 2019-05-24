@@ -51,20 +51,23 @@ public class ChannelListAdapter extends RecyclerView.Adapter<ChannelListAdapter.
 
     public class ChannelViewHolder extends RecyclerView.ViewHolder {
         private TextView title;
-        private TextView quality;
+        private TextView desc;
         private ImageView logo;
+        private TextView intr;
 
         public ChannelViewHolder(@NonNull View itemView) {
             super(itemView);
             title = itemView.findViewById(R.id.title);
-            quality = itemView.findViewById(R.id.quality);
+            desc = itemView.findViewById(R.id.desc);
             logo = itemView.findViewById(R.id.imageView);
+            intr =itemView.findViewById(R.id.intr);
         }
 
         public void bind(Context context, Channel c) {
 
             title.setText(c.getTitle());
-            quality.setText(c.getQuality());
+            desc.setText(c.getDesc());
+            intr.setText(c.getIntr());
             Glide.with(context)
 //                    .load("http://1118cctv.com/upload/images/cctvlogo/cctv1.jpg")
                     .load(c.getImg())

@@ -1,13 +1,23 @@
 package com.yancy.TapTap;
 
 import java.io.Serializable;
+
 // channel类 实现可实例化接口
 public class Channel implements Serializable {
 
     private String title;
-    private String quality;
+    private String desc;
     private String url;
     private String img;
+    private String intr;
+
+    public String getIntr() {
+        return intr;
+    }
+
+    public void setIntr(String intr) {
+        this.intr = intr;
+    }
 
     public String getTitle() {
         return title;
@@ -17,12 +27,13 @@ public class Channel implements Serializable {
         this.title = title;
     }
 
-    public String getQuality() {
-        return quality;
+
+    public String getDesc() {
+        return desc;
     }
 
-    public void setQuality(String quality) {
-        this.quality = quality;
+    public void setDesc(String desc) {
+        this.desc = desc;
     }
 
     public String getUrl() {
@@ -32,6 +43,7 @@ public class Channel implements Serializable {
     public void setUrl(String url) {
         this.url = url;
     }
+
     public String getImg() {
         return img;
     }
