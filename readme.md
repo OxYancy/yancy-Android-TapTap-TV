@@ -18,11 +18,13 @@ implementation 'com.google.android.material:material:1.1.0-alpha06'
 ```
 - 增加一个 App 启动欢迎页
 
-
+- 使用 CardView 来美化频道
+```
+com.google.android.material.card.MaterialCardView
+```
 
 未完成 :
 
-- 使用 CardView 来美化频道
 
 - 当屏幕横屏时，让视频全屏显示
 

@@ -12,8 +12,9 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+// 解析json
 public class DataLab {
-    private  Context context;
+    private Context context;
 
     public DataLab(Context ctx) {
         context = ctx;

@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import java.util.List;
 
+// 主页
 public class MainActivity extends AppCompatActivity {
     private RecyclerView channelList;
     private ChannelListAdapter listAdapter;
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+//        初始化数据
         initData();
 
         channelList =  findViewById(R.id.channelList);
@@ -42,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         channelList.setAdapter(listAdapter);
         channelList.setLayoutManager(new LinearLayoutManager(this));
     }
-
+// 初始化数据
     private void initData() {
         DataLab lab = new DataLab(this);
         this.data = lab.getChannels("data.json");
