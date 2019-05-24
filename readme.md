@@ -12,14 +12,20 @@
 
 - 完成频道的播放
 
+- 使用"Material Design"来美化整个 App
+```
+implementation 'com.google.android.material:material:1.1.0-alpha06'
+```
+- 增加一个 App 启动欢迎页
+
+
+
 未完成 :
 
-- 使用 CardView 来修改界面 1 中的频道，美化界面 1
+- 使用 CardView 来美化频道
 
-- 修改界面 2，当屏幕横屏时，让视频全屏显示
-
-- 使用"Material Design"来美化整个 App
+- 当屏幕横屏时，让视频全屏显示
 
 - “流量警告”功能，当用户使用数据流量看视频时，警告用户可能产生流量费用
 
-- 增加一个 App 启动欢迎页
+
