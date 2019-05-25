@@ -2,7 +2,6 @@
   "data" : [
     {
       "title" : "CCTV-1",
-
       "url" : "http://ivi.bupt.edu.cn/hls/cctv1.m3u8",
       "logoimg": "http://1118cctv.com/upload/images/cctvlogo/cctv1.jpg",
       "desc": "中央电视台新闻频道",
@@ -11,7 +10,6 @@
     },
     {
       "title" : "CCTV-6",
-
       "url" : "http://ivi.bupt.edu.cn/hls/cctv6.m3u8",
       "logoimg": "http://1118cctv.com/upload/images/cctvlogo/cctv6.jpg",
       "desc": "中央电视台电影频道",
@@ -20,7 +18,6 @@
 
     {
       "title" : "CCTV-9",
-
       "url": "http://ivi.bupt.edu.cn/hls/cctv9.m3u8",
       "logoimg": "http://1118cctv.com/upload/images/cctvlogo/cctv9.jpg",
       "desc": "中央电视台记录频道",
@@ -29,7 +26,6 @@
     },
     {
       "title" : "CCTV-12",
-
       "url" : "http://ivi.bupt.edu.cn/hls/cctv12.m3u8",
       "logoimg": "http://1118cctv.com/upload/images/cctvlogo/cctv12.jpg",
       "desc": "中央电视台法制频道",
@@ -37,7 +33,6 @@
     },
     {
       "title" : "测试电台",
-
       "url" : "http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8"
     }
   ],

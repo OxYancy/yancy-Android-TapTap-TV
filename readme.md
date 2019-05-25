@@ -24,6 +24,8 @@ com.google.android.material.card.MaterialCardView
 ```
 - 让视频横屏显示
 
+- 增加了bottomAppBar
+
 未完成 :
 
 
